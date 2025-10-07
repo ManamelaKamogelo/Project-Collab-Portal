@@ -1,0 +1,23 @@
+:root {
+  --nuw-purple: #6c3d91;
+  --nuw-turquoise: #00889c;
+  --nuw-grey: #78848e;
+  --nuw-black: #181512;
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --border: #e6e8ee;
+}
+
+/* Reset Styles*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Arial;
+  background: var(--bg);
+}
