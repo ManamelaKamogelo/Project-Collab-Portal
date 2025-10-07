@@ -1,0 +1,68 @@
+/*General Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* sidebar*/
+.sidebar {
+  width: 240px;
+  background: #2c3e50;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.sidebar .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.sidebar .brand-text h2 {
+  font-size: 1.1rem;
+}
+.sidebar .nav {
+  flex-grow: 1;
+}
+.sidebar .nav {
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+.sidebar .nav-btn:hover {
+  background: #34495e;
+}
+.quick-actions {
+  margin-top: 1rem;
+}
+.quick-actions .qa-btn {
+  display: block;
+  width: 100%;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  background: #16a085;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.quick-actions .qa-btn:hover {
+  background: #1abc9c;
+}
